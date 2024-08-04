@@ -21,4 +21,9 @@ for(let key in juser){
 }
 console.log(text)
 
+let value = 0;
+for(let x of arr){
+    value = value + x;
+}
+console.log(value);
 
