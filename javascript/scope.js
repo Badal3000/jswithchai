@@ -2,11 +2,19 @@ function  one(){
     const username = "Badal"
     function two(){
         const website = "youtube"
-        console.log(uername);
+        console.log(username);
     }
     //console.log(website);
     two()
 
 }
 one()
-console.log(one())
+
+if(true){
+    const user = "karunakar"
+    if(user === "karunakar"){
+        const website = " youtubbe"
+        console.log(user+website)
+    }
+
+}
