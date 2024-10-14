@@ -17,7 +17,7 @@ console.log(tinderuser.name)
 
 //lets see what we will do if we want to insert object inside an object and how to access it
 //object inside object {nesting of objects}
-const regular_user = {
+const regular_user = { 
     email:"abc2gmail.com",
     fullname : {
         userfullname : {
@@ -62,3 +62,8 @@ console.log(obj3)
         }
     }
 ]*/
+
+//to delete a particular key
+delete regular_user.fullname.userfullname.lname;
+
+console.log(regular_user) 

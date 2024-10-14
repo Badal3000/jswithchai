@@ -36,3 +36,13 @@ const myFunction = function() {
     console.log("Hello World!");
 }
 console.log(myFunction)
+
+console.log(Number.MIN_VALUE, Number.MAX_VALUE)
+//  NaN
+console.log("abc"/2)
+
+//var is used for function scope or global scope
+//let is used for blockk scoped 
+//const is used for block scoped
+
+ 
